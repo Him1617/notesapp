@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "dev": "nodemon backend/server.js"
-  },
+"scripts": {
+  "build": "cd frontend && npm install && npm run build",
+  "start": "node backend/server.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
